@@ -49,7 +49,7 @@
 								</tr>
 								<tr>
 									<td><input type="button" value="DEL" onclick="del()" class="clear"></td>
-									<td><input type="button" value="0" onclick="maytinh.result.value += '0'"></td>
+									<td><input type="button" value="0" onclick="maytinh.result.value += '0'" class="number"></td>
 									<td><input type="button" value="=" onclick="maytinh.result.value = eval(maytinh.result.value) " class="tinhtoan"></td>
 									<td><input type="button" value="+" onclick="maytinh.result.value += '+'" class="tinhtoan"></td>
 								</tr>
